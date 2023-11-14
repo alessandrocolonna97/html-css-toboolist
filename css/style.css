@@ -27,8 +27,88 @@ h1{
 .container{
     background-color: white;
     width: 720px;
-    height: 1000px;
+    height: 500px;
     margin: 0 auto;
     margin-top: 20px;
     border-radius: 10px;
+    
+}
+.border-bottom{
+    height: 2px;
+    margin-top: 10px;
+    background-color: #F6F8F9;
+}
+.button-left{
+    background-color: #1E90FF;
+    border-radius: 3px;
+    padding: 5px;
+    color: white;
+    border:0;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.button-right{
+background-color: white;
+color: lightgray;
+padding: 5px;
+border-radius: 3px;
+border:solid 0.4px gray;
+
+}
+.freccia{
+    font-size: 10px;
+}
+#newtask{
+    margin: 20px 0 0 30px;
+    font-family: 'Roboto', sans-serif;
+}
+li.lista::before{
+    content:'✓';
+    color: green;
+    padding-left: 5px;
+    border: 1px solid green;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+li.listared::before{
+    content:'✗';
+    color: red;
+    padding-left: 8px;
+    border: 1px solid red;
+    border-radius: 50%;
+}
+ul{
+    list-style-type: none;
+}
+.lista{
+    margin-top: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+.editorial{
+    background-color: #45ABEA;
+    padding: 5px;
+    border-radius: 50px;
+    font-size: 15px;
+}
+#today{
+    margin: 20px 0 0 30px;
+}
+.q1-goals{
+    background-color: #9C72E4;
+    padding: 5px;
+    border-radius: 50px;
+    font-size: 15px;
+}
+.recruiting{
+    background-color: #64C0A9;
+    padding: 5px;
+    border-radius: 50px;
+    font-size: 15px;
+}
+.mobile{
+    background-color: #F29E33;
+    padding: 5px;
+    border-radius: 50px;
+    font-size: 15px;
 }
