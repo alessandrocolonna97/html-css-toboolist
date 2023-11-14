@@ -61,7 +61,7 @@ border:solid 0.4px gray;
 }
 #newtask{
     margin: 20px 0 0 30px;
-    font-family: 'Roboto', sans-serif;
+
 }
 li.lista::before{
     content:'✓';
@@ -69,12 +69,12 @@ li.lista::before{
     padding-left: 5px;
     border: 1px solid green;
     border-radius: 50%;
-    vertical-align: middle;
+    
 }
 li.listared::before{
     content:'✗';
     color: red;
-    padding-left: 8px;
+    padding-left: 5px;
     border: 1px solid red;
     border-radius: 50%;
 }
@@ -85,12 +85,14 @@ ul{
     margin-top: 30px;
     font-family: 'Roboto', sans-serif;
     font-size: 17px;
+    
 }
 .editorial{
     background-color: #45ABEA;
     padding: 5px;
     border-radius: 50px;
-    font-size: 15px;
+    font-size: 12px;
+    color: white;
 }
 #today{
     margin: 20px 0 0 30px;
@@ -99,19 +101,22 @@ ul{
     background-color: #9C72E4;
     padding: 5px;
     border-radius: 50px;
-    font-size: 15px;
+    font-size: 12px;
+    color: white;
 }
 .recruiting{
     background-color: #64C0A9;
     padding: 5px;
     border-radius: 50px;
-    font-size: 15px;
+    font-size: 12px;
+    color: white;
 }
 .mobile{
     background-color: #F29E33;
     padding: 5px;
     border-radius: 50px;
-    font-size: 15px;
+    font-size: 12px;
+    color: white;
 }
 #upcoming{
    margin-top: 20px; 
@@ -120,17 +125,23 @@ ul{
     background-color: #D863A1;
     padding: 5px;
     border-radius: 50px;
-    font-size: 15px;
+    font-size: 12px;
+    color: white;
 }
 #sales{
     background-color: #B0C925;
     padding: 5px;
     border-radius: 50px;
-    font-size: 15px;
+    font-size: 12px;
+    color: white;
 }
 #editoriale{
     background-color: #F29E33;
     padding: 5px;
     border-radius: 50px;
-    font-size: 15px; 
+    font-size: 12px; 
+    color: white;
+}
+span{
+    font-weight: bold;
 }
