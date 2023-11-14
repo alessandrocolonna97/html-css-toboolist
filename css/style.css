@@ -27,10 +27,11 @@ h1{
 .container{
     background-color: white;
     width: 720px;
-    height: 500px;
+    height: 700px;
     margin: 0 auto;
     margin-top: 20px;
     border-radius: 10px;
+    margin-bottom: 30px;
     
 }
 .border-bottom{
@@ -83,7 +84,7 @@ ul{
 .lista{
     margin-top: 30px;
     font-family: 'Roboto', sans-serif;
-    font-size: 20px;
+    font-size: 17px;
 }
 .editorial{
     background-color: #45ABEA;
@@ -111,4 +112,25 @@ ul{
     padding: 5px;
     border-radius: 50px;
     font-size: 15px;
+}
+#upcoming{
+   margin-top: 20px; 
+}
+#website{
+    background-color: #D863A1;
+    padding: 5px;
+    border-radius: 50px;
+    font-size: 15px;
+}
+#sales{
+    background-color: #B0C925;
+    padding: 5px;
+    border-radius: 50px;
+    font-size: 15px;
+}
+#editoriale{
+    background-color: #F29E33;
+    padding: 5px;
+    border-radius: 50px;
+    font-size: 15px; 
 }
